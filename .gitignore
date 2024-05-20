@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+Project9-6/Project9-6.vcxproj.filters
+Project9-6.sln
+Project9-6/Project9-6.vcxproj
