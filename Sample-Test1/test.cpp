@@ -12,3 +12,9 @@ TEST(calc, getMinusTest) {
 	EXPECT_EQ(calc.getMinus(2, 1), 1);
 	EXPECT_EQ(calc.getMinus(4, 2), 2);
 }
+
+TEST(calc, getGopTest) {
+	calc calc;
+
+	EXPECT_EQ(calc.getGop(1, 2), 2);
+}
