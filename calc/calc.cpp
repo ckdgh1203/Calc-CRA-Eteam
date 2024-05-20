@@ -1,6 +1,6 @@
 class Calc {
 public:
-    int Gop(int a, int b){
+    int getGop(int a, int b){
         return a * b;
 
     }
