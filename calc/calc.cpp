@@ -1,6 +1,10 @@
 class Calc {
 public:
-      int getMinus(int a, int b) {
+    int Gop(int a, int b){
+        return a * b;
+
+    }
+    int getMinus(int a, int b) {
         return a - b;
     }
 };
