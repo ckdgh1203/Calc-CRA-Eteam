@@ -1,4 +1,7 @@
-class Calc {
+﻿class Calc {
 public:
-
+	int getGop(int a, int b)
+	{
+		return a * b;
+	}
 };
