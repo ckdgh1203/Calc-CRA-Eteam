@@ -7,7 +7,7 @@ TEST(TestCaseName, TestName) {
 }
 
 TEST(calc, getMinusTest) {
-	calc calc;
+	Calc calc;
 
 	EXPECT_EQ(calc.getMinus(0, 0), 0);
 	EXPECT_EQ(calc.getMinus(2, 1), 1);
@@ -15,7 +15,7 @@ TEST(calc, getMinusTest) {
 }
 
 TEST(calc, getGopTest) {
-	calc calc;
+	Calc calc;
 
 	EXPECT_EQ(calc.getGop(1, 2), 2);
 }
